@@ -1,11 +1,11 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company:
-// Engineer:
+// Company: 
+// Engineer: 
 // 
-// Create Date: 08/29/2026 06:57:39 PM
+// Create Date: 08/30/2026 11:54:16 AM
 // Design Name: 
-// Module Name: main4
+// Module Name: unintentional_latch
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -19,13 +19,16 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-//Tested on the PYNQ-Z1 board
-module main4(
-    input sysclk,
-    input logic [3:0] btn,
-    output logic [3:0] led
-    );
 
-    decoder #(.WIDTH(4)) dec(.sel(btn[1:0]), .out(led));
-    //unintentional_latch mul2_to_1(.sel(1), .out(led[0]), .in(btn[1:0]));
+module unintentional_latch(
+    input logic sel,
+    output logic out,
+    input logic [1:0] in
+    );
+    always_comb begin
+        case (sel)
+            1'b1: out = in[0];
+            default: out = in[1];
+        endcase
+    end
 endmodule
