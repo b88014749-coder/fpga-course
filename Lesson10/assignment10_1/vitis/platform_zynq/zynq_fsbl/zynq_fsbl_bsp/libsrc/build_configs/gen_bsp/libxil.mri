@@ -1,0 +1,15 @@
+create libxil.a
+addlib /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/xadcps/src/libxadcps.a
+addlib /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/uartps/src/libuartps.a
+addlib /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/tmrctr/src/libtmrctr.a
+addlib /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/scuwdt/src/libscuwdt.a
+addlib /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/scutimer/src/libscutimer.a
+addlib /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/scugic/src/libscugic.a
+addlib /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/qspips/src/libqspips.a
+addlib /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/gpiops/src/libgpiops.a
+addlib /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/gpio/src/libgpio.a
+addlib /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/dmaps/src/libdmaps.a
+addlib /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/devcfg/src/libdevcfg.a
+addlib /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp/libsrc/coresightps_dcc/src/libcoresightps_dcc.a
+save
+end

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

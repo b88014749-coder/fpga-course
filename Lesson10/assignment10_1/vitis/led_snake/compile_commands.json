@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/led_snake/build",
+  "command": "/home/andy/opt/2026.1/Vitis/gnu/aarch32/lin/gcc-arm-none-eabi/bin/arm-none-eabi-gcc -I/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/led_snake/src -isystem /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/export/platform_zynq/sw/standalone_ps7_cortexa9_0/include -isystem /home/andy/opt/2026.1/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem /home/andy/opt/2026.1/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem /home/andy/opt/2026.1/Vitis/gnu/aarch32/lin/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/export/platform_zynq/sw/standalone_ps7_cortexa9_0/Xilinx.spec -I/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/export/platform_zynq/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles/led_snake.elf.dir/led_snake.c.obj -c /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/led_snake/src/led_snake.c",
+  "file": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/led_snake/src/led_snake.c",
+  "output": "CMakeFiles/led_snake.elf.dir/led_snake.c.obj"
+}
+]

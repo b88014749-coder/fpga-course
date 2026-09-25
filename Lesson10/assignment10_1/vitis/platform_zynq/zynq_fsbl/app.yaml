@@ -1,0 +1,4 @@
+domain_path: /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/zynq_fsbl_bsp
+app_src_dir: /home/andy/opt/2026.1/Vitis/data/embeddedsw/lib/sw_apps/zynq_fsbl
+template: zynq_fsbl
+lang: c

@@ -1,0 +1,4 @@
+/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/build/CMakeFiles/print_build_info.dir
+/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson10/assignment10_1/vitis/platform_zynq/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir
