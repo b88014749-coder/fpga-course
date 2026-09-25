@@ -90,26 +90,34 @@ static void TimerIRQHandler(void *CallBackRef, u8 TmrCtrNumber)
             if (!(prev_value & BIT(idx)) && (cur_value & BIT(idx))) {
                 switch (BIT(idx)) {
                     case BTN_SPEED_UP:
-                        if (led_timer_value > TIMER_LED_MIN_VALUE) {
-                            led_timer_value -= TIMER_LED_STEP_VALUE;
-                            XTmrCtr_SetResetValue(InstancePtr, TIMER_LED_CNTR, led_timer_value);
-                        } else {
-                            led_timer_value = TIMER_LED_MIN_VALUE;
+                        if (InstancePtr->IsStartedTmrCtr0) {
+                            if (led_timer_value > TIMER_LED_MIN_VALUE) {
+                                led_timer_value -= TIMER_LED_STEP_VALUE;
+                                XTmrCtr_SetResetValue(InstancePtr, TIMER_LED_CNTR, led_timer_value);
+                            } else {
+                                led_timer_value = TIMER_LED_MIN_VALUE;
+                            }
                         }
                         break;
                     case BTN_SPEED_DOWN:
-                        if (led_timer_value < TIMER_LED_MAX_VALUE) {
-                            led_timer_value += TIMER_LED_STEP_VALUE;
-                            XTmrCtr_SetResetValue(InstancePtr, TIMER_LED_CNTR, led_timer_value);
-                        } else {
-                            led_timer_value = TIMER_LED_MAX_VALUE;
+                        if (InstancePtr->IsStartedTmrCtr0) {
+                            if (led_timer_value < TIMER_LED_MAX_VALUE) {
+                                led_timer_value += TIMER_LED_STEP_VALUE;
+                                XTmrCtr_SetResetValue(InstancePtr, TIMER_LED_CNTR, led_timer_value);
+                            } else {
+                                led_timer_value = TIMER_LED_MAX_VALUE;
+                            }
                         }
                         break;
                     case BTN_STOP:
-                        XTmrCtr_Stop(InstancePtr, TIMER_LED_CNTR);
+                        if (InstancePtr->IsStartedTmrCtr0) {
+                            XTmrCtr_Stop(InstancePtr, TIMER_LED_CNTR);
+                        }
                         break;
                     case BTN_START:
-                        XTmrCtr_Start(InstancePtr, TIMER_LED_CNTR);
+                        if (!InstancePtr->IsStartedTmrCtr0) {
+                            XTmrCtr_Start(InstancePtr, TIMER_LED_CNTR);
+                        }
                         break;
                     default:
                         break;
