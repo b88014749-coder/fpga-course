@@ -1,0 +1,63 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "tcf-debug",
+      "request": "launch",
+      "name": "led_snake_app_hw_1",
+      "debugType": "baremetal-zynq",
+      "attachToRunningTargetOptions": {
+        "targetSetupMode": "standalone",
+        "executeScript": true,
+        "scriptPath": ""
+      },
+      "autoAttachProcessChildren": false,
+      "target": {
+        "targetConnectionId": "Local",
+        "peersIniPath": "../../_ide/.peers.ini",
+        "context": "zynq"
+      },
+      "pathMap": [],
+      "targetSetup": {
+        "resetSystem": true,
+        "programDevice": true,
+        "partialBitstream": false,
+        "skipRevisionCheck": false,
+        "device": {
+          "plDevice": "Auto Detect",
+          "psDevice": "Auto Detect"
+        },
+        "resetAPU": false,
+        "bitstreamFile": "${workspaceFolder}/led_snake/_ide/bitstream/design_microblaze_wrapper.bit",
+        "zynqInitialization": {
+          "isFsbl": false,
+          "usingFSBL": {
+            "initWithFSBL": true,
+            "fsblFile": "${workspaceFolder}/platform_blaze/export/platform_blaze/sw/boot/fsbl.elf",
+            "fsblExitSymbol": "FsblHandoffJtagExit"
+          },
+          "usingPs7Init": {
+            "runPs7Init": false,
+            "runPs7PostInit": false,
+            "ps7InitTclFile": ""
+          }
+        },
+        "downloadElf": [
+          {
+            "core": "microblaze_0",
+            "resetProcessor": true,
+            "elfFile": "${workspaceFolder}/led_snake/build/led_snake.elf",
+            "stopAtEntry": false,
+            "isSelfRelocatingApp": false,
+            "relativeAddress": ""
+          }
+        ],
+        "crossTriggerBreakpoints": {
+          "isSelected": false,
+          "breakpoints": []
+        }
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}
