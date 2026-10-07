@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/assignment15/vitis/moving_max",
+    "arguments": [
+      "/home/andy/opt/2026.1/Vitis/lnx64/tools/clang-16/bin/clang++",
+      "--gcc-toolchain=/home/andy/opt/2026.1/Vitis/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/home/andy/opt/2026.1/Vitis/common/technology/autopilot",
+      "-fhlstoplevel=moving_max",
+      "-c",
+      "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/code/moving_max.cpp"
+    ],
+    "file": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/code/moving_max.cpp"
+  },
+  {
+    "directory": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/assignment15/vitis/moving_max",
+    "arguments": [
+      "/home/andy/opt/2026.1/Vitis/lnx64/tools/clang-16/bin/clang++",
+      "--gcc-toolchain=/home/andy/opt/2026.1/Vitis/tps/lnx64/gcc-8.3.0",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=/home/andy/opt/2026.1/Vitis/include",
+      "-c",
+      "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/code/moving_max_tb.cpp"
+    ],
+    "file": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/code/moving_max_tb.cpp"
+  }
+]

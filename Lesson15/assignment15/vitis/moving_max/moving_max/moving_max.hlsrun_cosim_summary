@@ -1,0 +1,227 @@
+<ENTRY>
+{
+ "thisFile": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/assignment15/vitis/moving_max/moving_max/moving_max.hlsrun_cosim_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Wed Oct  7 22:18:57 2026",
+ "timestampMillis": "1791400737106",
+ "buildStep": {
+  "cmdId": "1484711f-5f74-410a-9050-35ab05d20a08",
+  "name": "vitis-run",
+  "logFile": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/assignment15/vitis/moving_max/moving_max/logs/moving_max.steps.log",
+  "commandLine": "/home/andy/opt/2026.1/Vitis/bin/unwrapped/lnx64.o/vitis-run  --mode hls --cosim --config /home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/assignment15/vitis/moving_max/hls_config.cfg --work_dir moving_max ",
+  "args": [
+   "--mode",
+   "hls",
+   "--cosim",
+   "--config",
+   "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/assignment15/vitis/moving_max/hls_config.cfg",
+   "--work_dir",
+   "moving_max"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/assignment15/vitis/moving_max"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Oct  7 22:18:57 2026",
+ "timestampMillis": "1791400737106",
+ "status": {
+  "cmdId": "1484711f-5f74-410a-9050-35ab05d20a08",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Wed Oct  7 22:18:59 2026",
+ "timestampMillis": "1791400739647",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_RTL_COSIM",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "moving_max",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/code/moving_max.cpp",
+     "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/code/moving_max.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2026.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Oct  7 22:18:59 2026",
+ "timestampMillis": "1791400739647",
+ "buildStep": {
+  "cmdId": "685e2605-0817-401a-b1f7-9e09f12e324e",
+  "name": "",
+  "logFile": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/assignment15/vitis/moving_max/moving_max/hls/hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/assignment15/vitis/moving_max"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Oct  7 22:18:59 2026",
+ "timestampMillis": "1791400739648",
+ "status": {
+  "cmdId": "685e2605-0817-401a-b1f7-9e09f12e324e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Oct  7 22:18:59 2026",
+ "timestampMillis": "1791400739648",
+ "report": {
+  "path": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/assignment15/vitis/moving_max/moving_max/hls/sim/report/moving_max_cosim.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_COSIMULATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Oct  7 22:18:59 2026",
+ "timestampMillis": "1791400739648",
+ "report": {
+  "path": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/assignment15/vitis/moving_max/moving_max/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Oct  7 22:18:59 2026",
+ "timestampMillis": "1791400739648",
+ "report": {
+  "path": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/assignment15/vitis/moving_max/moving_max/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH_COSIM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Oct  7 22:18:59 2026",
+ "timestampMillis": "1791400739648",
+ "report": {
+  "path": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/assignment15/vitis/moving_max/moving_max/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_TIMELINE_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Oct  7 22:18:59 2026",
+ "timestampMillis": "1791400739648",
+ "report": {
+  "path": "/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/assignment15/vitis/moving_max/moving_max/hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_WAVE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Oct  7 22:32:50 2026",
+ "timestampMillis": "1791401570385",
+ "status": {
+  "cmdId": "685e2605-0817-401a-b1f7-9e09f12e324e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Oct  7 22:32:50 2026",
+ "timestampMillis": "1791401570478",
+ "status": {
+  "cmdId": "1484711f-5f74-410a-9050-35ab05d20a08",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Oct  7 22:32:50 2026",
+ "timestampMillis": "1791401570479",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Oct  7 22:32:50 2026",
+ "timestampMillis": "1791401570479",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

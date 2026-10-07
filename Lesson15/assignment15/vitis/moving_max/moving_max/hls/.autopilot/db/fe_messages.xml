@@ -1,0 +1,20 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="directive:1:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="moving_max" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=moving_max" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-6999" msg_severity="WARNING" msg_loc="/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson15/code/moving_max.cpp:14:1" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="hls" ARG_PragmaFunction="moving_max" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="code/moving_max.cpp:17:23" msg_body="Loop 'VITIS_LOOP_17_1' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_17_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-291" msg_severity="INFO" msg_loc="code/moving_max.cpp:22:23" msg_body="Loop 'VITIS_LOOP_22_2' is marked as complete unroll implied by the pipeline pragma">
+        <args LoopName="VITIS_LOOP_22_2"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="code/moving_max.cpp:4:0" msg_body="Unrolling loop 'VITIS_LOOP_17_1' (code/moving_max.cpp:17:23) in function 'moving_max' completely with a factor of 7">
+        <args Factor="7" LoopLoc="code/moving_max.cpp:17:23" LoopName="VITIS_LOOP_17_1"/>
+    </msg>
+    <msg msg_groups="PRAGMA_UNROLL" msg_id="214-186" msg_severity="INFO" msg_loc="code/moving_max.cpp:4:0" msg_body="Unrolling loop 'VITIS_LOOP_22_2' (code/moving_max.cpp:22:23) in function 'moving_max' completely with a factor of 8">
+        <args Factor="8" LoopLoc="code/moving_max.cpp:22:23" LoopName="VITIS_LOOP_22_2"/>
+    </msg>
+</xilinx:hls_fe_msgs>
