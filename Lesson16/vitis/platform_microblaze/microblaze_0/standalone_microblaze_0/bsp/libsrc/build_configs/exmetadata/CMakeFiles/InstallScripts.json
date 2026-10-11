@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson16/vitis/platform_microblaze/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

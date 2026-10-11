@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_system_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+            <top_module name="tb_system" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="30.926179 us"></ZoomStartTime>
+      <ZoomEndTime time="42.579702 us"></ZoomEndTime>
+      <Cursor1Time time="50.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="61"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject type="logic" fp_name="/tb_system/sysclk">
+      <obj_property name="ElementShortName">sysclk</obj_property>
+      <obj_property name="ObjectShortName">sysclk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/reset_rtl">
+      <obj_property name="ElementShortName">reset_rtl</obj_property>
+      <obj_property name="ObjectShortName">reset_rtl</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/sig_in">
+      <obj_property name="ElementShortName">sig_in</obj_property>
+      <obj_property name="ObjectShortName">sig_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/sig_in">
+      <obj_property name="ElementShortName">sig_in</obj_property>
+      <obj_property name="ObjectShortName">sig_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_ACLK">
+      <obj_property name="ElementShortName">S_AXI_ACLK</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ACLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_ARESETN">
+      <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_AWADDR">
+      <obj_property name="ElementShortName">S_AXI_AWADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_AWPROT">
+      <obj_property name="ElementShortName">S_AXI_AWPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_AWVALID">
+      <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_AWREADY">
+      <obj_property name="ElementShortName">S_AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_AWREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_WDATA">
+      <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_WSTRB">
+      <obj_property name="ElementShortName">S_AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_WVALID">
+      <obj_property name="ElementShortName">S_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_WREADY">
+      <obj_property name="ElementShortName">S_AXI_WREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_BRESP">
+      <obj_property name="ElementShortName">S_AXI_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_BVALID">
+      <obj_property name="ElementShortName">S_AXI_BVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_BREADY">
+      <obj_property name="ElementShortName">S_AXI_BREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_BREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_ARADDR">
+      <obj_property name="ElementShortName">S_AXI_ARADDR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARADDR[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_ARPROT">
+      <obj_property name="ElementShortName">S_AXI_ARPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARPROT[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_ARVALID">
+      <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_ARREADY">
+      <obj_property name="ElementShortName">S_AXI_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARREADY</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_RDATA">
+      <obj_property name="ElementShortName">S_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_RRESP">
+      <obj_property name="ElementShortName">S_AXI_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_RVALID">
+      <obj_property name="ElementShortName">S_AXI_RVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI_RREADY">
+      <obj_property name="ElementShortName">S_AXI_RREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_RREADY</obj_property>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/tb_system/dut/design_1_i/freq_cntr_0/S_AXI">
+      <obj_property name="ElementShortName">S_AXI</obj_property>
+      <obj_property name="ObjectShortName">S_AXI</obj_property>
+   </wvobject>
+</wave_config>

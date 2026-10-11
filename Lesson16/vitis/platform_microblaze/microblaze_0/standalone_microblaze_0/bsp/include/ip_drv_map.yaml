@@ -1,0 +1,12 @@
+freq_cntr_0:
+- freq_cntr
+- None
+mdm_1:
+- mdm
+- uartlite
+microblaze_0_axi_intc:
+- axi_intc
+- intc
+microblaze_0_local_memory_dlmb_bram_if_cntlr:
+- lmb_bram_if_cntlr
+- bram

@@ -1,0 +1,13 @@
+# ninja log v5
+1	327	0	CMakeFiles/intc_example	14b98d3aa87cc2c
+1	327	0	xintc_exlist.yaml	14b98d3aa87cc2c
+1	327	0	/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson16/vitis/platform_microblaze/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/intc_example	14b98d3aa87cc2c
+1	327	0	/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson16/vitis/platform_microblaze/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/xintc_exlist.yaml	14b98d3aa87cc2c
+1	344	0	CMakeFiles/bram_example	e3bc617ee8952b89
+1	344	0	xbram_exlist.yaml	e3bc617ee8952b89
+1	344	0	/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson16/vitis/platform_microblaze/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/bram_example	e3bc617ee8952b89
+1	344	0	/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson16/vitis/platform_microblaze/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/xbram_exlist.yaml	e3bc617ee8952b89
+0	345	0	CMakeFiles/uartlite_example	da56bc04cbdc9b93
+0	345	0	xuartlite_exlist.yaml	da56bc04cbdc9b93
+0	345	0	/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson16/vitis/platform_microblaze/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/CMakeFiles/uartlite_example	da56bc04cbdc9b93
+0	345	0	/home/andy/opt/Xilinx/Projects/FPGA-Course/Lesson16/vitis/platform_microblaze/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/exmetadata/xuartlite_exlist.yaml	da56bc04cbdc9b93
